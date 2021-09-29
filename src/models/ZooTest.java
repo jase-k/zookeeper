@@ -16,6 +16,18 @@ public class ZooTest {
 		gorilla1.eatBananas();
 		gorilla1.climb();
 		gorilla1.eatBananas();
+		
+		Bat bat1 = new Bat();
+		bat1.attackTown();
+		bat1.eatHumans();
+		bat1.eatHumans();
+		bat1.attackTown();
+		bat1.eatHumans();
+		bat1.eatHumans();
+		bat1.attackTown();
+		bat1.fly();
+		bat1.eatHumans();
+		bat1.fly();
 	}
 
 }
